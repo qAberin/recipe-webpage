@@ -1,0 +1,2 @@
+This project was created to familiarize myself with html formatting and remembering the attributes of some tags. 
+3 recipe pages were created to build some consistency and also to find a good layout for each page.  
