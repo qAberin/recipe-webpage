@@ -8,16 +8,9 @@ a {
     text-decoration: none;
 }
 
-.imgbox {
-    text-align: center;
-    background-color: lightgray;
-    width: auto;
-    padding: 10px;
-    margin: 15px;
-    outline-style: ridge;
-}
-
+.imgbox,
 .descriptionbox {
+    text-align: center;
     background-color: lightgray;
     width: auto;
     padding: 10px;
@@ -76,7 +69,8 @@ h1 {
     text-align: center;
 }
 
-li {
+li,
+#notebox {
     background-color: lightgray;
     width: auto;
     padding: 10px;
