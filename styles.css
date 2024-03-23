@@ -1,18 +1,90 @@
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.imgbox {
+    text-align: center;
+    background-color: lightgray;
+    width: auto;
+    padding: 10px;
+    margin: 15px;
+    outline-style: ridge;
+}
+
+.descriptionbox {
+    background-color: lightgray;
+    width: auto;
+    padding: 10px;
+    margin: 15px;
+    outline-style: ridge;
+}
+
+#strongpasta {
+    display: block;
+    text-align: center;
+}
+
+#pastaseparator {
+    background-color: black;
+    padding: 2px;
 }
 
 .pasta {
-    color: white;
+    background-color: lightgray;
+    width: 350px;
+    margin: 20px auto;
+    padding: 20px;
+    outline-color: black;
+    outline-style: dashed;
+    outline: auto;
+    display: block;
     text-align: center;
 }
 
 button {
+    width: auto;
     font-weight: bold;
-    color: white;
     background-color: gray;
 }
 
-a {
-    text-decoration: none;
+h2, 
+h1 {
+    text-align: center;
+    background-color: lightblue;
+    outline-color: black;
+    outline-style: dashed;
+    outline: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.subheaderbox {
+    background-color: lightgray;
+    width: 175px;
+    margin: 20px;
+    padding: 20px;
+    outline-color: black;
+    outline-style: dashed;
+    outline: auto;
+    display: flex;
+    text-align: center;
+}
+
+li {
+    background-color: lightgray;
+    width: auto;
+    padding: 10px;
+    outline-color: black;
+    outline-style:dashed;
+    outline-width: 1px;
+    display: block;
+    width: 400px;
+    text-align: center;
+    margin: 2px;
 }
